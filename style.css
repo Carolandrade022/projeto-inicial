@@ -1,0 +1,103 @@
+
+
+*{margin: 0px;
+padding: 0px;}
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+:root{
+    --cor0: #98befc;
+    --cor1: #7aabfa;
+    --cor2: #007ED2;
+    --cor3: #007CCE;
+    --cor4: #0901F5;
+    --cor5: #F75703;
+
+    --fonte-destaque:'Android';
+    }
+
+    body{background-color: var(--cor0);}
+
+    header{background-image: linear-gradient(to bottom,var(--cor2), var(--cor4));
+    width: auto;}
+
+    header > h1 {color: #F75703;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 2px 2px 6px black;
+
+    }
+
+    header > p {color: var(--cor5);
+    text-align: center;
+    text-shadow: 2px 2px 6px black;
+    padding-bottom: 20px;
+    font-size: 30px;}
+
+    nav {color: #0901F5;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F75703;
+
+    }
+
+    nav> a{text-decoration: overline;
+    border-radius: 10px;
+    padding: 10px;}
+
+    nav > a:hover{
+    background-color: #0901F5;
+    color: white;}
+
+    main {background-color: white;
+    margin: auto;
+    max-width: 700px;
+    min-width: 320px;
+    padding: 20px;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.39);
+    }
+    
+   
+
+    main  p {text-align: justify;
+    text-indent: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    }
+
+    
+
+    main h1 {color: var(--cor5);
+    text-shadow: 0px 0px 0px black;
+    background-image: linear-gradient(to right,#98befc,rgb(255, 255, 255));}
+    main h2 {color:var(--cor5);
+    background-image: linear-gradient(to right,#98befc,rgb(255, 255, 255));}
+
+    main>article img {width: 100%}
+
+
+    aside {background-color: var(--cor1);
+    border-radius: 10px;
+    }
+
+    aside > ul {list-style-position: inside;}
+
+    aside > h3 {color: #0901F5;}
+
+    
+
+    footer{background-color: #0901F5;
+    text-align: center;
+    color: #F75703;
+    font-weight: normal;
+    text-shadow: 2px 2px 6px black;}
+
+        
